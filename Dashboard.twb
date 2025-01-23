@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20243.24.1010.1014                               -->
-<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -21,7 +21,6 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='Dashboard1_17375900979650' path='/workbooks' revision='1.1' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -31,7 +30,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='datasets_summary' name='excel-direct.19eq9p5087f3j412ot2ba07zwtya'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Acer/Desktop/final_project/datasets_summary.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Acer/Desktop/final_project/datasets_summary.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation type='collection'>
@@ -2200,7 +2199,7 @@
         </groupfilter>
       </group>
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Acer/AppData/Local/Temp/TableauTemp/#TableauTemp_1sxb7k90xrwicz1gj8m2q1dqke1y.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Acer/AppData/Local/Temp/TableauTemp/#TableauTemp_1sxb7k90xrwicz1gj8m2q1dqke1y.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/22/2025 03:55:45 PM' username='tableau_internal_user'>
           <relation type='collection'>
             <relation name='Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155' table='[Extract].[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]' type='table' />
             <relation name='Original!Data_E44754A3692540F5B622EE7ADB9B2885' table='[Extract].[Original!Data_E44754A3692540F5B622EE7ADB9B2885]' type='table' />
@@ -2334,6 +2333,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1000</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Age</remote-name>
@@ -2347,6 +2347,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>47</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Income</remote-name>
@@ -2360,6 +2361,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>996</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Debt</remote-name>
@@ -2373,6 +2375,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Owns Property</remote-name>
@@ -2386,6 +2389,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total Time Spent</remote-name>
@@ -2399,6 +2403,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>278</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number of Sessions</remote-name>
@@ -2412,6 +2417,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>19</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video ID</remote-name>
@@ -2425,6 +2431,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>947</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Length</remote-name>
@@ -2438,6 +2445,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>29</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Engagement</remote-name>
@@ -2451,6 +2459,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>953</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Importance Score</remote-name>
@@ -2464,6 +2473,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Time Spent On Video</remote-name>
@@ -2477,6 +2487,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>29</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number of Videos Watched</remote-name>
@@ -2490,6 +2501,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>49</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Scroll Rate</remote-name>
@@ -2503,6 +2515,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>99</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ProductivityLoss</remote-name>
@@ -2516,6 +2529,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Satisfaction</remote-name>
@@ -2529,6 +2543,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Time</remote-name>
@@ -2542,6 +2557,7 @@
               <aggregation>Year</aggregation>
               <approx-count>16</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Self Control</remote-name>
@@ -2555,6 +2571,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Addiction Level</remote-name>
@@ -2568,6 +2585,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Time (hours)</remote-name>
@@ -2581,6 +2599,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>16</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ProductivityLoss_transformed</remote-name>
@@ -2594,6 +2613,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Cluster</remote-name>
@@ -2607,6 +2627,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender_Female</remote-name>
@@ -2620,6 +2641,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender_Male</remote-name>
@@ -2633,6 +2655,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender_Other</remote-name>
@@ -2646,6 +2669,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_Barzil</remote-name>
@@ -2659,6 +2683,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_Germany</remote-name>
@@ -2672,6 +2697,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_India</remote-name>
@@ -2685,6 +2711,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_Indonesia</remote-name>
@@ -2698,6 +2725,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_Japan</remote-name>
@@ -2711,6 +2739,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_Mexico</remote-name>
@@ -2724,6 +2753,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_Pakistan</remote-name>
@@ -2737,6 +2767,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_Philippines</remote-name>
@@ -2750,6 +2781,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_United States</remote-name>
@@ -2763,6 +2795,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location_Vietnam</remote-name>
@@ -2776,6 +2809,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_Artist</remote-name>
@@ -2789,6 +2823,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_Cashier</remote-name>
@@ -2802,6 +2837,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_Engineer</remote-name>
@@ -2815,6 +2851,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_Labor/Worker</remote-name>
@@ -2828,6 +2865,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_Manager</remote-name>
@@ -2841,6 +2879,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_Students</remote-name>
@@ -2854,6 +2893,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_Teacher</remote-name>
@@ -2867,6 +2907,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_Waiting staff</remote-name>
@@ -2880,6 +2921,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession_driver</remote-name>
@@ -2893,6 +2935,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Demographics_Rural</remote-name>
@@ -2906,6 +2949,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Demographics_Urban</remote-name>
@@ -2919,6 +2963,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Platform_Facebook</remote-name>
@@ -2932,6 +2977,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Platform_Instagram</remote-name>
@@ -2945,6 +2991,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Platform_TikTok</remote-name>
@@ -2958,6 +3005,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Platform_YouTube</remote-name>
@@ -2971,6 +3019,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_ASMR</remote-name>
@@ -2984,6 +3033,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_Comedy</remote-name>
@@ -2997,6 +3047,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_Entertainment</remote-name>
@@ -3010,6 +3061,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_Gaming</remote-name>
@@ -3023,6 +3075,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_Jokes/Memes</remote-name>
@@ -3036,6 +3089,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_Life Hacks</remote-name>
@@ -3049,6 +3103,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_Pranks</remote-name>
@@ -3062,6 +3117,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_Trends</remote-name>
@@ -3075,6 +3131,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category_Vlogs</remote-name>
@@ -3088,6 +3145,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Frequency_Afternoon</remote-name>
@@ -3101,6 +3159,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Frequency_Evening</remote-name>
@@ -3114,6 +3173,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Frequency_Morning</remote-name>
@@ -3127,6 +3187,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Frequency_Night</remote-name>
@@ -3140,6 +3201,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Reason_Boredom</remote-name>
@@ -3153,6 +3215,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Reason_Entertainment</remote-name>
@@ -3166,6 +3229,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Reason_Habit</remote-name>
@@ -3179,6 +3243,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Reason_Procrastination</remote-name>
@@ -3192,6 +3257,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DeviceType_Computer</remote-name>
@@ -3205,6 +3271,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DeviceType_Smartphone</remote-name>
@@ -3218,6 +3285,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DeviceType_Tablet</remote-name>
@@ -3231,6 +3299,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>OS_Android</remote-name>
@@ -3244,6 +3313,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>OS_MacOS</remote-name>
@@ -3257,6 +3327,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>OS_Windows</remote-name>
@@ -3270,6 +3341,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>OS_iOS</remote-name>
@@ -3283,6 +3355,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>CurrentActivity_At home</remote-name>
@@ -3296,6 +3369,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>CurrentActivity_At school</remote-name>
@@ -3309,6 +3383,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>CurrentActivity_At work</remote-name>
@@ -3322,6 +3397,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>CurrentActivity_Commuting</remote-name>
@@ -3335,6 +3411,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ConnectionType_Mobile Data</remote-name>
@@ -3348,6 +3425,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ConnectionType_Wi-Fi</remote-name>
@@ -3361,6 +3439,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Encoded!Data_F6F4E45AA9B44A98B797F124A23F0155]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>UserID</remote-name>
@@ -3374,6 +3453,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1000</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Age</remote-name>
@@ -3387,6 +3467,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>47</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender</remote-name>
@@ -3401,6 +3482,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location</remote-name>
@@ -3415,6 +3497,7 @@
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Income</remote-name>
@@ -3428,6 +3511,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>996</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Debt</remote-name>
@@ -3441,6 +3525,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Owns Property</remote-name>
@@ -3454,6 +3539,7 @@
               <aggregation>Count</aggregation>
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profession</remote-name>
@@ -3468,6 +3554,7 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Demographics</remote-name>
@@ -3482,6 +3569,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Platform</remote-name>
@@ -3496,6 +3584,7 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total Time Spent</remote-name>
@@ -3509,6 +3598,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>278</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number of Sessions</remote-name>
@@ -3522,6 +3612,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>19</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video ID</remote-name>
@@ -3535,6 +3626,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>947</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Category</remote-name>
@@ -3549,6 +3641,7 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Video Length</remote-name>
@@ -3562,6 +3655,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>29</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Engagement</remote-name>
@@ -3575,6 +3669,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>953</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Importance Score</remote-name>
@@ -3588,6 +3683,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Time Spent On Video</remote-name>
@@ -3601,6 +3697,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>29</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number of Videos Watched</remote-name>
@@ -3614,6 +3711,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>49</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Scroll Rate</remote-name>
@@ -3627,6 +3725,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>99</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Frequency</remote-name>
@@ -3641,6 +3740,7 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ProductivityLoss</remote-name>
@@ -3654,6 +3754,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Satisfaction</remote-name>
@@ -3667,6 +3768,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Reason</remote-name>
@@ -3681,6 +3783,7 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DeviceType</remote-name>
@@ -3695,6 +3798,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>OS</remote-name>
@@ -3709,6 +3813,7 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Time</remote-name>
@@ -3722,6 +3827,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>13</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Self Control</remote-name>
@@ -3735,6 +3841,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Addiction Level</remote-name>
@@ -3748,6 +3855,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>CurrentActivity</remote-name>
@@ -3762,6 +3870,7 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ConnectionType</remote-name>
@@ -3776,6 +3885,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LRU_RRU' />
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Watch Time (hours)</remote-name>
@@ -3789,6 +3899,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>16</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>ProductivityLoss_transformed</remote-name>
@@ -3802,6 +3913,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Cluster</remote-name>
@@ -3815,6 +3927,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
+              <object-id>[Original!Data_E44754A3692540F5B622EE7ADB9B2885]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -3834,17 +3947,6 @@
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;20-35 (Young Adults)&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:DeviceType (Original!Data):nk]' palette='purple_pink_gray_10_0' type='palette'>
-            <map to='#7c7270'>
-              <bucket>&quot;Tablet&quot;</bucket>
-            </map>
-            <map to='#9c9290'>
-              <bucket>&quot;Smartphone&quot;</bucket>
-            </map>
-            <map to='#d4ccc8'>
-              <bucket>&quot;Computer&quot;</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[none:Frequency (Original!Data):nk]' palette='purple_pink_gray_10_0' type='palette'>
@@ -3972,7 +4074,12 @@
               <bucket>&quot;Jokes/Memes&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Calculation_1174876591684247574:nk]' type='palette'>
+          <encoding attr='color' field='[none:Calculation_1174876591706791965:nk]' type='palette'>
+            <map to='#ffffff'>
+              <bucket>&quot;Addiction Level&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1174876591683588116:nk]' type='palette'>
             <map to='#c46487'>
               <bucket>&quot;High&quot;</bucket>
             </map>
@@ -3981,19 +4088,6 @@
             </map>
             <map to='#ffbed1'>
               <bucket>&quot;Medium&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:Calculation_1174876591684001813:nk]' type='palette'>
-            <map to='#c5bfbe'>
-              <bucket>&quot;Low&quot;</bucket>
-            </map>
-            <map to='#ffbed1'>
-              <bucket>&quot;Medium&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:Calculation_1174876591706791965:nk]' type='palette'>
-            <map to='#ffffff'>
-              <bucket>&quot;Addiction Level&quot;</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[none:Calculation_1174876591684792343:nk]' type='palette'>
@@ -4007,10 +4101,29 @@
               <bucket>&quot;Medium&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:Calculation_1174876591683588116:nk]' type='palette'>
+          <encoding attr='color' field='[none:DeviceType (Original!Data):nk]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#7c7270'>
+              <bucket>&quot;Tablet&quot;</bucket>
+            </map>
+            <map to='#9c9290'>
+              <bucket>&quot;Smartphone&quot;</bucket>
+            </map>
+            <map to='#d4ccc8'>
+              <bucket>&quot;Computer&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1174876591684247574:nk]' type='palette'>
             <map to='#c46487'>
               <bucket>&quot;High&quot;</bucket>
             </map>
+            <map to='#c5bfbe'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+            <map to='#ffbed1'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1174876591684001813:nk]' type='palette'>
             <map to='#c5bfbe'>
               <bucket>&quot;Low&quot;</bucket>
             </map>
@@ -4267,6 +4380,14 @@
     </datasource>
   </datasources>
   <actions>
+    <action caption='Filter 2 (generated)' name='[Action10_8CDDA53C98D14F9E8B4AAAFEB67B995E]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Productivity pie' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
     <action caption='Filter 3 (generated)' name='[Action11_09AF2886245946D3961C56B2C4C300CB]'>
       <activation auto-clear='true' type='on-select' />
       <source dashboard='Dashboard 1' type='sheet' worksheet='Day Time' />
@@ -4286,14 +4407,6 @@
     <action caption='Filter 5 (generated)' name='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]'>
       <activation auto-clear='true' type='on-select' />
       <source dashboard='Dashboard 1' type='sheet' worksheet='App Usage' />
-      <command command='tsc:tsl-filter'>
-        <param name='special-fields' value='all' />
-        <param name='target' value='Dashboard 1' />
-      </command>
-    </action>
-    <action caption='Filter 6 (generated)' name='[Action14_C2D17C1E45314D93A0AB46044AB6999A]'>
-      <activation auto-clear='true' type='on-select' />
-      <source dashboard='Dashboard 1' type='sheet' worksheet='Routine' />
       <command command='tsc:tsl-filter'>
         <param name='special-fields' value='all' />
         <param name='target' value='Dashboard 1' />
@@ -4362,6 +4475,14 @@
         <param name='target' value='Dashboard 1' />
       </command>
     </action>
+    <action caption='Filter 1 (generated)' name='[Action9_392F153BDE794F588CA8F4150A391209]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Satisfaction pie' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
   </actions>
   <worksheets>
     <worksheet name='Addiction pie'>
@@ -4382,8 +4503,14 @@
             <column caption='avg(0)' datatype='real' name='[Calculation_1174876591668039699]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='avg(0)' />
             </column>
+            <column caption='Satisfaction level (grade)' datatype='string' name='[Calculation_1174876591683588116]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Satisfaction] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Satisfaction] &gt; 4 AND [Satisfaction] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
             <column caption='Addiction level (grade)' datatype='string' name='[Calculation_1174876591684001813]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Addiction Level] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Addiction Level] &gt; 4 AND [Addiction Level] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Productivity loss (grade)' datatype='string' name='[Calculation_1174876591684247574]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [ProductivityLoss_transformed] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [ProductivityLoss_transformed] &gt; 4 AND [ProductivityLoss_transformed] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
             </column>
             <column caption='AVG(0)' datatype='real' name='[Calculation_1174876591703027740]' role='measure' type='quantitative' user:unnamed='Sheet 10'>
               <calculation class='tableau' formula='AVG(0)' />
@@ -4391,13 +4518,18 @@
             <column caption='Label addiction' datatype='string' name='[Calculation_1174876591706791965]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='&quot;Addiction Level&quot;' />
             </column>
+            <column caption='Prod loss label' datatype='string' name='[Calculation_1174876591711174686]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Productivity Loss&quot;' />
+            </column>
+            <column caption='Satisfaction label' datatype='string' name='[Calculation_1174876591717122080]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Satisfaction&quot;' />
+            </column>
             <column datatype='string' name='[DeviceType (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Frequency (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Location (Original!Data)]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
             <column datatype='string' name='[Platform (Original!Data)]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ProductivityLoss_transformed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Satisfaction]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent]' role='measure' type='quantitative' />
             <column datatype='integer' name='[UserID]' role='dimension' type='ordinal' />
-            <column datatype='string' name='[Watch Reason (Original!Data)]' role='dimension' type='nominal' />
             <column aggregation='None' caption='Watch Time (hours) (bin)' datatype='integer' name='[Watch Time (hours) (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='0' formula='[Watch Time (hours)]' peg='0' size='1' />
             </column>
@@ -4414,29 +4546,22 @@
             <column-instance column='[Calculation_1174876591703027740]' derivation='User' name='[usr:Calculation_1174876591703027740:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]'>
-            <groupfilter function='reorder-dimensionality' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[Platform (Original!Data)]' member='&quot;Instagram&quot;' />
-                <groupfilter function='union'>
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Computer&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Smartphone&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Tablet&quot;' />
-                </groupfilter>
-              </groupfilter>
-              <order>
-                <hierarchy name='[DeviceType (Original!Data)]' />
-                <hierarchy name='[Platform (Original!Data)]' />
-              </order>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[DeviceType (Original!Data)]' />
+              <groupfilter function='level-members' level='[Platform (Original!Data)]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action14_C2D17C1E45314D93A0AB46044AB6999A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[Frequency (Original!Data)]' />
-              <groupfilter function='level-members' level='[Watch Reason (Original!Data)]' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action10_8CDDA53C98D14F9E8B4AAAFEB67B995E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591684247574]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591711174686]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]'>
-            <groupfilter function='level-members' level='[Location (Original!Data)]' user:ui-action-filter='[Action12_2DCE1037D328491BAF7CCC2F63825D1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action9_392F153BDE794F588CA8F4150A391209]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591683588116]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591717122080]' />
+            </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]'>
             <groupfilter function='level-members' level='[Watch Time (hours) (bin)]' user:ui-action-filter='[Action11_09AF2886245946D3961C56B2C4C300CB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
@@ -5447,10 +5572,10 @@
           </filter>
           <slices>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[none:UserID:ok]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -5611,20 +5736,31 @@
             <column caption='Productivity loss from total time spent' datatype='real' name='[Calculation_1174876591632359438]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='[ProductivityLoss_transformed (Original!Data)] / [Total Time Spent]' />
             </column>
+            <column caption='Satisfaction level (grade)' datatype='string' name='[Calculation_1174876591683588116]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Satisfaction] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Satisfaction] &gt; 4 AND [Satisfaction] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Productivity loss (grade)' datatype='string' name='[Calculation_1174876591684247574]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [ProductivityLoss_transformed] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [ProductivityLoss_transformed] &gt; 4 AND [ProductivityLoss_transformed] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Prod loss label' datatype='string' name='[Calculation_1174876591711174686]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Productivity Loss&quot;' />
+            </column>
+            <column caption='Satisfaction label' datatype='string' name='[Calculation_1174876591717122080]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Satisfaction&quot;' />
+            </column>
             <column caption='Percentage of Total for devices' datatype='real' name='[Calculation_1174876591753699362]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='COUNTD([UserID]) / SUM({FIXED [Platform (Original!Data)]: COUNTD([UserID])}) * 100' />
             </column>
             <column datatype='string' name='[CurrentActivity (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='string' name='[DeviceType (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Frequency (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='string' name='[Gender (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Location (Original!Data)]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
             <column datatype='string' name='[OS (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='string' name='[Platform (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='integer' name='[ProductivityLoss_transformed (Original!Data)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[ProductivityLoss_transformed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Satisfaction]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent]' role='measure' type='quantitative' />
             <column datatype='integer' name='[UserID]' role='dimension' type='ordinal' />
-            <column datatype='string' name='[Watch Reason (Original!Data)]' role='dimension' type='nominal' />
             <column aggregation='None' caption='Watch Time (hours) (bin)' datatype='integer' name='[Watch Time (hours) (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='0' formula='[Watch Time (hours)]' peg='0' size='1' />
             </column>
@@ -5642,20 +5778,23 @@
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Age Group)]'>
             <groupfilter function='member' level='[Calculation_1174876591344312320]' member='&quot;36-50 (Middle Age)&quot;' user:ui-action-filter='[Action6_C58E67AED1984670937907A0E2B7FDAD]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action14_C2D17C1E45314D93A0AB46044AB6999A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[Frequency (Original!Data)]' />
-              <groupfilter function='level-members' level='[Watch Reason (Original!Data)]' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action10_8CDDA53C98D14F9E8B4AAAFEB67B995E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591684247574]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591711174686]' />
             </groupfilter>
-          </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]'>
-            <groupfilter function='level-members' level='[Location (Original!Data)]' user:ui-action-filter='[Action12_2DCE1037D328491BAF7CCC2F63825D1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss from total time spent,CurrentActivity (Original!Data),Total Time Spent)]'>
             <groupfilter function='crossjoin' user:ui-action-filter='[Action4_65F803109C0E456A9CCB4B17D4B55B61]' user:ui-enumeration='all' user:ui-marker='enumerate'>
               <groupfilter function='level-members' level='[none:Calculation_1174876591632359438:ok]' />
               <groupfilter function='level-members' level='[CurrentActivity (Original!Data)]' />
               <groupfilter function='level-members' level='[none:Total Time Spent:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action9_392F153BDE794F588CA8F4150A391209]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591683588116]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591717122080]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]'>
@@ -5672,9 +5811,9 @@
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[none:OS (Original!Data):nk]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Age Group)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss from total time spent,CurrentActivity (Original!Data),Total Time Spent)]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -5767,16 +5906,28 @@
             <column caption='Productivity loss from total time spent' datatype='real' name='[Calculation_1174876591632359438]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='[ProductivityLoss_transformed (Original!Data)] / [Total Time Spent]' />
             </column>
+            <column caption='Satisfaction level (grade)' datatype='string' name='[Calculation_1174876591683588116]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Satisfaction] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Satisfaction] &gt; 4 AND [Satisfaction] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Productivity loss (grade)' datatype='string' name='[Calculation_1174876591684247574]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [ProductivityLoss_transformed] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [ProductivityLoss_transformed] &gt; 4 AND [ProductivityLoss_transformed] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Prod loss label' datatype='string' name='[Calculation_1174876591711174686]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Productivity Loss&quot;' />
+            </column>
+            <column caption='Satisfaction label' datatype='string' name='[Calculation_1174876591717122080]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Satisfaction&quot;' />
+            </column>
             <column datatype='string' name='[CurrentActivity (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='string' name='[DeviceType (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Frequency (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='string' name='[Location (Original!Data)]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
             <column datatype='string' name='[Platform (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='integer' name='[ProductivityLoss_transformed (Original!Data)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[ProductivityLoss_transformed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Satisfaction]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent (Original!Data)]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent]' role='measure' type='quantitative' />
             <column datatype='integer' name='[UserID]' role='dimension' type='ordinal' />
-            <column datatype='string' name='[Watch Reason (Original!Data)]' role='dimension' type='nominal' />
             <column aggregation='None' caption='Watch Time (hours) (bin)' datatype='integer' name='[Watch Time (hours) (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='0' formula='[Watch Time (hours)]' peg='0' size='1' />
             </column>
@@ -5789,25 +5940,15 @@
             <column-instance column='[UserID]' derivation='None' name='[none:UserID:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]'>
-            <groupfilter function='reorder-dimensionality' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[Platform (Original!Data)]' member='&quot;Instagram&quot;' />
-                <groupfilter function='union'>
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Computer&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Smartphone&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Tablet&quot;' />
-                </groupfilter>
-              </groupfilter>
-              <order>
-                <hierarchy name='[DeviceType (Original!Data)]' />
-                <hierarchy name='[Platform (Original!Data)]' />
-              </order>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[DeviceType (Original!Data)]' />
+              <groupfilter function='level-members' level='[Platform (Original!Data)]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action14_C2D17C1E45314D93A0AB46044AB6999A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[Frequency (Original!Data)]' />
-              <groupfilter function='level-members' level='[Watch Reason (Original!Data)]' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action10_8CDDA53C98D14F9E8B4AAAFEB67B995E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591684247574]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591711174686]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss from total time spent,CurrentActivity (Original!Data),Total Time Spent)]'>
@@ -5815,6 +5956,12 @@
               <groupfilter function='level-members' level='[none:Calculation_1174876591632359438:ok]' />
               <groupfilter function='level-members' level='[CurrentActivity (Original!Data)]' />
               <groupfilter function='level-members' level='[none:Total Time Spent:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action9_392F153BDE794F588CA8F4150A391209]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591683588116]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591717122080]' />
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]'>
@@ -6828,9 +6975,10 @@
           <slices>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss from total time spent,CurrentActivity (Original!Data),Total Time Spent)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[none:UserID:ok]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -6902,16 +7050,27 @@
             <column caption='Productivity loss from total time spent' datatype='real' name='[Calculation_1174876591632359438]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='[ProductivityLoss_transformed (Original!Data)] / [Total Time Spent]' />
             </column>
+            <column caption='Satisfaction level (grade)' datatype='string' name='[Calculation_1174876591683588116]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Satisfaction] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Satisfaction] &gt; 4 AND [Satisfaction] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Productivity loss (grade)' datatype='string' name='[Calculation_1174876591684247574]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [ProductivityLoss_transformed] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [ProductivityLoss_transformed] &gt; 4 AND [ProductivityLoss_transformed] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Prod loss label' datatype='string' name='[Calculation_1174876591711174686]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Productivity Loss&quot;' />
+            </column>
+            <column caption='Satisfaction label' datatype='string' name='[Calculation_1174876591717122080]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Satisfaction&quot;' />
+            </column>
             <column datatype='string' name='[CurrentActivity (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='string' name='[DeviceType (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Frequency (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Location (Original!Data)]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
             <column datatype='string' name='[Platform (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='integer' name='[ProductivityLoss_transformed (Original!Data)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[ProductivityLoss_transformed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Satisfaction]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent (Original!Data)]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent]' role='measure' type='quantitative' />
             <column datatype='integer' name='[UserID]' role='dimension' type='ordinal' />
-            <column datatype='string' name='[Watch Reason (Original!Data)]' role='dimension' type='nominal' />
             <column aggregation='None' caption='Watch Time (hours) (bin)' datatype='integer' name='[Watch Time (hours) (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='0' formula='[Watch Time (hours)]' peg='0' size='1' />
             </column>
@@ -6927,29 +7086,16 @@
             <groupfilter function='member' level='[Calculation_1174876591344312320]' member='&quot;36-50 (Middle Age)&quot;' user:ui-action-filter='[Action6_C58E67AED1984670937907A0E2B7FDAD]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]'>
-            <groupfilter function='reorder-dimensionality' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[Platform (Original!Data)]' member='&quot;Instagram&quot;' />
-                <groupfilter function='union'>
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Computer&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Smartphone&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Tablet&quot;' />
-                </groupfilter>
-              </groupfilter>
-              <order>
-                <hierarchy name='[DeviceType (Original!Data)]' />
-                <hierarchy name='[Platform (Original!Data)]' />
-              </order>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[DeviceType (Original!Data)]' />
+              <groupfilter function='level-members' level='[Platform (Original!Data)]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action14_C2D17C1E45314D93A0AB46044AB6999A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[Frequency (Original!Data)]' />
-              <groupfilter function='level-members' level='[Watch Reason (Original!Data)]' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action10_8CDDA53C98D14F9E8B4AAAFEB67B995E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591684247574]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591711174686]' />
             </groupfilter>
-          </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]'>
-            <groupfilter function='level-members' level='[Location (Original!Data)]' user:ui-action-filter='[Action12_2DCE1037D328491BAF7CCC2F63825D1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss from total time spent,CurrentActivity (Original!Data),Total Time Spent)]'>
             <groupfilter function='crossjoin' user:ui-action-filter='[Action4_65F803109C0E456A9CCB4B17D4B55B61]' user:ui-enumeration='all' user:ui-marker='enumerate'>
@@ -6958,12 +7104,18 @@
               <groupfilter function='level-members' level='[none:Total Time Spent:ok]' />
             </groupfilter>
           </filter>
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action9_392F153BDE794F588CA8F4150A391209]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591683588116]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591717122080]' />
+            </groupfilter>
+          </filter>
           <slices>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Age Group)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss from total time spent,CurrentActivity (Original!Data),Total Time Spent)]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -7041,6 +7193,9 @@
             <column caption='avg(0)' datatype='real' name='[Calculation_1174876591668039699]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='avg(0)' />
             </column>
+            <column caption='Satisfaction level (grade)' datatype='string' name='[Calculation_1174876591683588116]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Satisfaction] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Satisfaction] &gt; 4 AND [Satisfaction] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
             <column caption='Productivity loss (grade)' datatype='string' name='[Calculation_1174876591684247574]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [ProductivityLoss_transformed] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [ProductivityLoss_transformed] &gt; 4 AND [ProductivityLoss_transformed] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
             </column>
@@ -7050,14 +7205,15 @@
             <column caption='Prod loss label' datatype='string' name='[Calculation_1174876591711174686]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='&quot;Productivity Loss&quot;' />
             </column>
+            <column caption='Satisfaction label' datatype='string' name='[Calculation_1174876591717122080]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Satisfaction&quot;' />
+            </column>
             <column datatype='string' name='[DeviceType (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Frequency (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Location (Original!Data)]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
             <column datatype='string' name='[Platform (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='integer' name='[ProductivityLoss_transformed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Satisfaction]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent]' role='measure' type='quantitative' />
             <column datatype='integer' name='[UserID]' role='dimension' type='ordinal' />
-            <column datatype='string' name='[Watch Reason (Original!Data)]' role='dimension' type='nominal' />
             <column aggregation='None' caption='Watch Time (hours) (bin)' datatype='integer' name='[Watch Time (hours) (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='0' formula='[Watch Time (hours)]' peg='0' size='1' />
             </column>
@@ -7074,34 +7230,28 @@
             <column-instance column='[Calculation_1174876591703027740]' derivation='User' name='[usr:Calculation_1174876591703027740:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]'>
-            <groupfilter function='reorder-dimensionality' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[Platform (Original!Data)]' member='&quot;Instagram&quot;' />
-                <groupfilter function='union'>
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Computer&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Smartphone&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Tablet&quot;' />
-                </groupfilter>
-              </groupfilter>
-              <order>
-                <hierarchy name='[DeviceType (Original!Data)]' />
-                <hierarchy name='[Platform (Original!Data)]' />
-              </order>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[DeviceType (Original!Data)]' />
+              <groupfilter function='level-members' level='[Platform (Original!Data)]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action14_C2D17C1E45314D93A0AB46044AB6999A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[Frequency (Original!Data)]' />
-              <groupfilter function='level-members' level='[Watch Reason (Original!Data)]' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action9_392F153BDE794F588CA8F4150A391209]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591683588116]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591717122080]' />
             </groupfilter>
-          </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]'>
-            <groupfilter function='level-members' level='[Location (Original!Data)]' user:ui-action-filter='[Action12_2DCE1037D328491BAF7CCC2F63825D1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]'>
             <groupfilter function='level-members' level='[Watch Time (hours) (bin)]' user:ui-action-filter='[Action11_09AF2886245946D3961C56B2C4C300CB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
-          <computed-sort column='[federated.0p72th31vfrye014cwyu2187o5ir].[none:Calculation_1174876591684247574:nk]' direction='DESC' using='[federated.0p72th31vfrye014cwyu2187o5ir].[usr:Calculation_1174876591668039699:qk]' />
+          <manual-sort column='[federated.0p72th31vfrye014cwyu2187o5ir].[none:Calculation_1174876591684247574:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%all%</bucket>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+            </dictionary>
+          </manual-sort>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[none:UserID:ok]'>
             <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
               <groupfilter function='member' level='[none:UserID:ok]' member='1' />
@@ -8108,10 +8258,9 @@
           </filter>
           <slices>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[none:UserID:ok]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -8129,9 +8278,6 @@
             <format attr='cell' value='58' />
             <format attr='cell-q' value='290' />
             <format attr='text-format' field='[federated.0p72th31vfrye014cwyu2187o5ir].[avg:Total Time Spent:qk]' value='n#,##0&quot;min&quot;;-#,##0&quot;min&quot;' />
-          </style-rule>
-          <style-rule element='label'>
-            <format attr='text-align' field='[federated.0p72th31vfrye014cwyu2187o5ir].[none:Calculation_1174876591684247574:nk]' value='auto' />
           </style-rule>
           <style-rule element='pane'>
             <format attr='border-width' data-class='total' value='0' />
@@ -8206,22 +8352,18 @@
             <customized-label>
               <formatted-text>
                 <run bold='true' fontcolor='#66555a'><![CDATA[<[federated.0p72th31vfrye014cwyu2187o5ir].[pcto:cnt:UserID:qk]>]]></run>
-                <run><![CDATA[
-<[federated.0p72th31vfrye014cwyu2187o5ir].[none:Calculation_1174876591684247574:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run><![CDATA[<[federated.0p72th31vfrye014cwyu2187o5ir].[none:Calculation_1174876591684247574:nk]>]]></run>
               </formatted-text>
             </customized-label>
             <style>
-              <style-rule element='cell'>
-                <format attr='text-align' value='auto' />
-              </style-rule>
               <style-rule element='mark'>
                 <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
                 <format attr='size' value='0.99950277805328369' />
                 <format attr='has-stroke' value='true' />
                 <format attr='stroke-color' value='#ffffff' />
                 <format attr='mark-transparency' value='255' />
-                <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-labels-mode' value='all' />
               </style-rule>
             </style>
           </pane>
@@ -8257,8 +8399,8 @@
                 <format attr='size' value='0.75762432813644409' />
                 <format attr='mark-labels-cull' value='true' />
                 <format attr='mark-labels-mode' value='all' />
-                <format attr='mark-labels-show' value='false' />
                 <format attr='mark-color' value='#ffffff' />
+                <format attr='mark-labels-show' value='false' />
                 <format attr='mark-transparency' value='255' />
               </style-rule>
               <style-rule element='trendline'>
@@ -8302,10 +8444,23 @@
             <datasource caption='Encoded_Data+ (datasets_summary)' name='federated.0p72th31vfrye014cwyu2187o5ir' />
           </datasources>
           <datasource-dependencies datasource='federated.0p72th31vfrye014cwyu2187o5ir'>
+            <column caption='Satisfaction level (grade)' datatype='string' name='[Calculation_1174876591683588116]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Satisfaction] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Satisfaction] &gt; 4 AND [Satisfaction] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Productivity loss (grade)' datatype='string' name='[Calculation_1174876591684247574]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [ProductivityLoss_transformed] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [ProductivityLoss_transformed] &gt; 4 AND [ProductivityLoss_transformed] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Prod loss label' datatype='string' name='[Calculation_1174876591711174686]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Productivity Loss&quot;' />
+            </column>
+            <column caption='Satisfaction label' datatype='string' name='[Calculation_1174876591717122080]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Satisfaction&quot;' />
+            </column>
             <column datatype='string' name='[DeviceType (Original!Data)]' role='dimension' type='nominal' />
             <column datatype='string' name='[Frequency (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Location (Original!Data)]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
             <column datatype='string' name='[Platform (Original!Data)]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ProductivityLoss_transformed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Satisfaction]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent]' role='measure' type='quantitative' />
             <column datatype='integer' name='[UserID]' role='dimension' type='ordinal' />
             <column datatype='string' name='[Watch Reason (Original!Data)]' role='dimension' type='nominal' />
@@ -8319,31 +8474,31 @@
             <column-instance column='[Watch Reason (Original!Data)]' derivation='None' name='[none:Watch Reason (Original!Data):nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]'>
-            <groupfilter function='reorder-dimensionality' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[Platform (Original!Data)]' member='&quot;Instagram&quot;' />
-                <groupfilter function='union'>
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Computer&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Smartphone&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Tablet&quot;' />
-                </groupfilter>
-              </groupfilter>
-              <order>
-                <hierarchy name='[DeviceType (Original!Data)]' />
-                <hierarchy name='[Platform (Original!Data)]' />
-              </order>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[DeviceType (Original!Data)]' />
+              <groupfilter function='level-members' level='[Platform (Original!Data)]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]'>
-            <groupfilter function='level-members' level='[Location (Original!Data)]' user:ui-action-filter='[Action12_2DCE1037D328491BAF7CCC2F63825D1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action10_8CDDA53C98D14F9E8B4AAAFEB67B995E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591684247574]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591711174686]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action9_392F153BDE794F588CA8F4150A391209]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591683588116]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591717122080]' />
+            </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]'>
             <groupfilter function='level-members' level='[Watch Time (hours) (bin)]' user:ui-action-filter='[Action11_09AF2886245946D3961C56B2C4C300CB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -8462,20 +8617,24 @@
             <column caption='Satisfaction level (grade)' datatype='string' name='[Calculation_1174876591683588116]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Satisfaction] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Satisfaction] &gt; 4 AND [Satisfaction] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
             </column>
+            <column caption='Productivity loss (grade)' datatype='string' name='[Calculation_1174876591684247574]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [ProductivityLoss_transformed] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [ProductivityLoss_transformed] &gt; 4 AND [ProductivityLoss_transformed] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
             <column caption='AVG(0)' datatype='real' name='[Calculation_1174876591703027740]' role='measure' type='quantitative' user:unnamed='Sheet 10'>
               <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='Prod loss label' datatype='string' name='[Calculation_1174876591711174686]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Productivity Loss&quot;' />
             </column>
             <column caption='Satisfaction label' datatype='string' name='[Calculation_1174876591717122080]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='&quot;Satisfaction&quot;' />
             </column>
             <column datatype='string' name='[DeviceType (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Frequency (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Location (Original!Data)]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
             <column datatype='string' name='[Platform (Original!Data)]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ProductivityLoss_transformed]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Satisfaction]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent]' role='measure' type='quantitative' />
             <column datatype='integer' name='[UserID]' role='dimension' type='ordinal' />
-            <column datatype='string' name='[Watch Reason (Original!Data)]' role='dimension' type='nominal' />
             <column aggregation='None' caption='Watch Time (hours) (bin)' datatype='integer' name='[Watch Time (hours) (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='0' formula='[Watch Time (hours)]' peg='0' size='1' />
             </column>
@@ -8492,29 +8651,16 @@
             <column-instance column='[Calculation_1174876591703027740]' derivation='User' name='[usr:Calculation_1174876591703027740:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]'>
-            <groupfilter function='reorder-dimensionality' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[Platform (Original!Data)]' member='&quot;Instagram&quot;' />
-                <groupfilter function='union'>
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Computer&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Smartphone&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Tablet&quot;' />
-                </groupfilter>
-              </groupfilter>
-              <order>
-                <hierarchy name='[DeviceType (Original!Data)]' />
-                <hierarchy name='[Platform (Original!Data)]' />
-              </order>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[DeviceType (Original!Data)]' />
+              <groupfilter function='level-members' level='[Platform (Original!Data)]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action14_C2D17C1E45314D93A0AB46044AB6999A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[Frequency (Original!Data)]' />
-              <groupfilter function='level-members' level='[Watch Reason (Original!Data)]' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action10_8CDDA53C98D14F9E8B4AAAFEB67B995E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591684247574]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591711174686]' />
             </groupfilter>
-          </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]'>
-            <groupfilter function='level-members' level='[Location (Original!Data)]' user:ui-action-filter='[Action12_2DCE1037D328491BAF7CCC2F63825D1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]'>
             <groupfilter function='level-members' level='[Watch Time (hours) (bin)]' user:ui-action-filter='[Action11_09AF2886245946D3961C56B2C4C300CB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
@@ -9525,10 +9671,9 @@
           </filter>
           <slices>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[none:UserID:ok]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -9703,23 +9848,34 @@
             <column caption='avg(0)' datatype='real' name='[Calculation_1174876591668039699]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='avg(0)' />
             </column>
+            <column caption='Satisfaction level (grade)' datatype='string' name='[Calculation_1174876591683588116]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Satisfaction] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Satisfaction] &gt; 4 AND [Satisfaction] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Productivity loss (grade)' datatype='string' name='[Calculation_1174876591684247574]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [ProductivityLoss_transformed] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [ProductivityLoss_transformed] &gt; 4 AND [ProductivityLoss_transformed] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
+            </column>
             <column caption='Self - Control (grade)' datatype='string' name='[Calculation_1174876591684792343]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='IF [Self Control] &lt;= 4 THEN &quot;Low&quot;&#13;&#10;ELSEIF [Self Control] &gt; 4 AND [Self Control] &lt;= 7 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;High&quot;&#13;&#10;END' />
             </column>
             <column caption='AVG(0)' datatype='real' name='[Calculation_1174876591703027740]' role='measure' type='quantitative' user:unnamed='Sheet 10'>
               <calculation class='tableau' formula='AVG(0)' />
             </column>
+            <column caption='Prod loss label' datatype='string' name='[Calculation_1174876591711174686]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Productivity Loss&quot;' />
+            </column>
             <column caption='Self-control label' datatype='string' name='[Calculation_1174876591714734111]' role='dimension' type='nominal'>
               <calculation class='tableau' formula='&quot;Self-Control&quot;' />
             </column>
+            <column caption='Satisfaction label' datatype='string' name='[Calculation_1174876591717122080]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Satisfaction&quot;' />
+            </column>
             <column datatype='string' name='[DeviceType (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Frequency (Original!Data)]' role='dimension' type='nominal' />
-            <column datatype='string' name='[Location (Original!Data)]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
             <column datatype='string' name='[Platform (Original!Data)]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[ProductivityLoss_transformed]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Satisfaction]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Self Control]' role='measure' type='quantitative' />
             <column datatype='integer' name='[Total Time Spent]' role='measure' type='quantitative' />
             <column datatype='integer' name='[UserID]' role='dimension' type='ordinal' />
-            <column datatype='string' name='[Watch Reason (Original!Data)]' role='dimension' type='nominal' />
             <column aggregation='None' caption='Watch Time (hours) (bin)' datatype='integer' name='[Watch Time (hours) (bin)]' role='dimension' type='ordinal'>
               <calculation class='bin' decimals='0' formula='[Watch Time (hours)]' peg='0' size='1' />
             </column>
@@ -9736,29 +9892,22 @@
             <column-instance column='[Calculation_1174876591703027740]' derivation='User' name='[usr:Calculation_1174876591703027740:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]'>
-            <groupfilter function='reorder-dimensionality' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='member' level='[Platform (Original!Data)]' member='&quot;Instagram&quot;' />
-                <groupfilter function='union'>
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Computer&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Smartphone&quot;' />
-                  <groupfilter function='member' level='[DeviceType (Original!Data)]' member='&quot;Tablet&quot;' />
-                </groupfilter>
-              </groupfilter>
-              <order>
-                <hierarchy name='[DeviceType (Original!Data)]' />
-                <hierarchy name='[Platform (Original!Data)]' />
-              </order>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action13_584B2E68DE9C408C9FEEFAC7F59C72E1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[DeviceType (Original!Data)]' />
+              <groupfilter function='level-members' level='[Platform (Original!Data)]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]'>
-            <groupfilter function='crossjoin' user:ui-action-filter='[Action14_C2D17C1E45314D93A0AB46044AB6999A]' user:ui-enumeration='all' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[Frequency (Original!Data)]' />
-              <groupfilter function='level-members' level='[Watch Reason (Original!Data)]' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action10_8CDDA53C98D14F9E8B4AAAFEB67B995E]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591684247574]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591711174686]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]'>
-            <groupfilter function='level-members' level='[Location (Original!Data)]' user:ui-action-filter='[Action12_2DCE1037D328491BAF7CCC2F63825D1D]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action9_392F153BDE794F588CA8F4150A391209]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Calculation_1174876591683588116]' />
+              <groupfilter function='level-members' level='[Calculation_1174876591717122080]' />
+            </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]'>
             <groupfilter function='level-members' level='[Watch Time (hours) (bin)]' user:ui-action-filter='[Action11_09AF2886245946D3961C56B2C4C300CB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
@@ -10777,10 +10926,10 @@
           </filter>
           <slices>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[none:UserID:ok]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Satisfaction level (grade),Satisfaction label)]</column>
+            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Productivity loss (grade),Prod loss label)]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Watch Time (hours) (bin))]</column>
             <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (DeviceType (Original!Data),Platform (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Frequency (Original!Data),Watch Reason (Original!Data))]</column>
-            <column>[federated.0p72th31vfrye014cwyu2187o5ir].[Action (Location (Original!Data))]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -10952,8 +11101,8 @@
       </datasource-dependencies>
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98060' id='93' param='vert' type-v2='layout-flow' w='99034' x='483' y='970'>
-            <zone h='7031' id='94' type-v2='title' w='99034' x='483' y='970'>
+          <zone h='98002' id='93' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='7241' id='94' type-v2='title' w='99034' x='483' y='999'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -10961,8 +11110,8 @@
                 <format attr='margin' value='4' />
               </zone-style>
             </zone>
-            <zone h='91029' id='91' type-v2='layout-basic' w='99034' x='483' y='8001'>
-              <zone h='91029' id='90' is-centered='0' type-v2='bitmap' w='99034' x='483' y='8001'>
+            <zone h='90761' id='91' type-v2='layout-basic' w='99034' x='483' y='8240'>
+              <zone h='90761' id='90' is-centered='0' type-v2='bitmap' w='99034' x='483' y='8240'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -10984,13 +11133,13 @@
         </zone>
         <zone fixed-size='69' h='13983' id='31' is-fixed='true' name='App Usage' param='[federated.0p72th31vfrye014cwyu2187o5ir].[none:Gender (Original!Data):nk]' type-v2='filter' w='14608' x='84702' y='8115' />
         <zone fixed-size='241' h='15231' id='30' is-fixed='true' name='App Usage' param='[federated.0p72th31vfrye014cwyu2187o5ir].[none:Calculation_1174876591344312320:nk]' type-v2='filter' w='14734' x='84326' y='23346' />
-        <zone h='29576' id='80' name='Satisfaction pie' show-title='false' w='20941' x='604' y='9818'>
+        <zone h='30836' id='80' name='Satisfaction pie' show-title='false' w='20972' x='586' y='8115'>
           <layout-cache cell-count-w='1' minheight='290' type-h='scalable' type-w='cell' />
         </zone>
-        <zone h='30061' id='78' name='Self-control pie' show-title='false' w='20398' x='62462' y='9091'>
+        <zone h='30087' id='78' name='Self-control pie' show-title='false' w='21379' x='62633' y='8115'>
           <layout-cache cell-count-w='1' minheight='290' type-h='scalable' type-w='cell' />
         </zone>
-        <zone h='29939' id='73' name='Productivity pie' show-title='false' w='19916' x='21002' y='9212'>
+        <zone h='30212' id='73' name='Productivity pie' show-title='false' w='21818' x='20878' y='8365'>
           <layout-cache cell-count-w='1' minheight='290' type-h='scalable' type-w='cell' />
         </zone>
         <zone fixed-size='316' h='29089' id='41' is-fixed='true' name='Day Time' w='36965' x='15466' y='40325'>
@@ -10999,9 +11148,9 @@
         <zone h='58801' id='45' name='App Usage' w='14984' x='251' y='40200'>
           <layout-cache minheight='239' type-h='scalable' type-w='fixed' />
         </zone>
-        <zone fixed-size='60' h='7758' id='51' is-fixed='true' name='App Usage' pane-specification-id='3' param='[federated.0p72th31vfrye014cwyu2187o5ir].[none:DeviceType (Original!Data):nk]' show-title='false' type-v2='color' w='16657' x='302' y='91879' />
+        <zone fixed-size='60' h='7740' id='51' is-fixed='true' name='App Usage' pane-specification-id='3' param='[federated.0p72th31vfrye014cwyu2187o5ir].[none:DeviceType (Original!Data):nk]' show-title='false' type-v2='color' w='16614' x='690' y='93258' />
         <zone h='27341' id='87' name='Country' w='36790' x='15641' y='70412' />
-        <zone h='29818' id='89' name='Addiction pie' show-title='false' w='20278' x='41642' y='8606' />
+        <zone h='29838' id='89' name='Addiction pie' show-title='false' w='21379' x='41630' y='8614' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -11014,9 +11163,9 @@
           </layout-options>
           <size maxheight='2600' minheight='2600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='100' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98060' id='99' param='vert' type-v2='layout-flow' w='99034' x='483' y='970'>
-                <zone h='7031' id='94' type-v2='title' w='99034' x='483' y='970'>
+            <zone h='100000' id='98' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98002' id='97' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+                <zone h='7241' id='94' type-v2='title' w='99034' x='483' y='999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11025,16 +11174,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='91029' id='90' is-centered='0' is-fixed='true' type-v2='bitmap' w='99034' x='483' y='8001'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='246' h='30788' id='80' is-fixed='true' name='Satisfaction pie' show-title='false' w='20941' x='604' y='8606'>
+                <zone fixed-size='247' h='30836' id='80' is-fixed='true' name='Satisfaction pie' show-title='false' w='20972' x='586' y='8115'>
                   <layout-cache cell-count-w='1' minheight='290' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -11044,7 +11184,26 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='241' h='30182' id='73' is-fixed='true' name='Productivity pie' show-title='false' w='21786' x='21002' y='8606'>
+                <zone fixed-size='241' h='30087' id='78' is-fixed='true' name='Self-control pie' show-title='false' w='21379' x='62633' y='8115'>
+                  <layout-cache cell-count-w='1' minheight='290' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='90761' id='90' is-centered='0' is-fixed='true' type-v2='bitmap' w='99034' x='483' y='8240'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='242' h='30212' id='73' is-fixed='true' name='Productivity pie' show-title='false' w='21818' x='20878' y='8365'>
                   <layout-cache cell-count-w='1' minheight='290' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -11055,16 +11214,6 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='239' h='29838' id='89' is-fixed='true' name='Addiction pie' show-title='false' w='21379' x='41630' y='8614'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='240' h='30061' id='78' is-fixed='true' name='Self-control pie' show-title='false' w='21364' x='62885' y='8848'>
-                  <layout-cache cell-count-w='1' minheight='290' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11111,7 +11260,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='60' h='7758' id='51' name='App Usage' pane-specification-id='3' param='[federated.0p72th31vfrye014cwyu2187o5ir].[none:DeviceType (Original!Data):nk]' show-title='false' type-v2='color' w='16657' x='302' y='91879'>
+                <zone fixed-size='60' h='7740' id='51' name='App Usage' pane-specification-id='3' param='[federated.0p72th31vfrye014cwyu2187o5ir].[none:DeviceType (Original!Data):nk]' show-title='false' type-v2='color' w='16614' x='690' y='93258'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11157,8 +11306,8 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98060' id='5' param='vert' type-v2='layout-flow' w='99034' x='483' y='970'>
-            <zone fixed-size='51' h='7152' id='7' is-fixed='true' type-v2='title' w='99034' x='483' y='970'>
+          <zone h='98002' id='5' param='vert' type-v2='layout-flow' w='98996' x='502' y='999'>
+            <zone fixed-size='51' h='7366' id='7' is-fixed='true' type-v2='title' w='98996' x='502' y='999'>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -11167,7 +11316,7 @@
                 <format attr='background-color' value='#a791965b' />
               </zone-style>
             </zone>
-            <zone h='90908' id='6' type-v2='layout-basic' w='99034' x='483' y='8122' />
+            <zone h='90636' id='6' type-v2='layout-basic' w='98996' x='502' y='8365' />
           </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
@@ -11227,9 +11376,9 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98060' id='32' param='vert' type-v2='layout-flow' w='99034' x='483' y='970'>
-                <zone fixed-size='51' h='7152' id='7' type-v2='title' w='99034' x='483' y='970'>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='30' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='51' h='7366' id='7' type-v2='title' w='98996' x='502' y='999'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -11294,7 +11443,7 @@
       <simple-id uuid='{941136ED-654F-4357-A8D8-803B8D6AD4EE}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
     <window class='worksheet' name='Country'>
       <cards>
         <edge name='left'>
@@ -11516,7 +11665,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='73' />
+      <active id='45' />
       <simple-id uuid='{FE8475B2-D1BB-4019-AF32-A59676A8ECA8}' />
     </window>
     <window class='worksheet' name='Routine'>
@@ -11562,8 +11711,371 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='27' />
+      <active id='-1' />
       <simple-id uuid='{5AC63581-E74E-4FB5-8232-06B260DE70B6}' />
     </window>
   </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
 </workbook>
